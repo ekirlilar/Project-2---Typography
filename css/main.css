@@ -1,0 +1,327 @@
+
+
+#container
+{
+
+   width: 970px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#Navcontainer{
+   margin: 0 auto;
+   width: 960px;
+}
+
+#mainNav
+{
+   margin: 0;
+   padding: 0;
+   font-family:"Courier New", "Lucida Grande", sans-serif;
+   height: 60px;
+   
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d5cea6+0,c9c190+37,b7ad70+100 */
+background: rgb(213,206,166); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(213,206,166,1) 0%, rgba(201,193,144,1) 37%, rgba(183,173,112,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(213,206,166,1) 0%,rgba(201,193,144,1) 37%,rgba(183,173,112,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(213,206,166,1) 0%,rgba(201,193,144,1) 37%,rgba(183,173,112,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', endColorstr='#b7ad70',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+
+#mainNav ul
+{
+   list-style-type: none;
+}
+
+#mainNav ul li
+{
+   float: left;
+}
+
+#mainNav ul li a
+{
+   display: block;
+   color: #fff;
+   font-size: 16px;
+   text-decoration: none;
+   margin-left: 30px;
+   margin-top: 10px;
+   padding: 10px;
+   text-transform: uppercase;
+   letter-spacing: .5px;
+   border-radius: 10px;
+   cursor: pointer;
+   
+   -webkit-transition: all .5s ease-in-out;
+   -moz-transition: all .5s ease-in-out;
+   -o-transition: all .5s ease-in-out;
+   transition: all .5s ease-in-out;
+}
+
+#mainNav ul li a:hover
+{
+   background-color: #73B2E2;
+   border-radius: 10px;
+   color: #333;
+}
+
+
+
+
+
+
+body
+{
+
+   font-family: Courier New;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.2;
+   text-align: center;
+}
+
+#Image
+{
+   
+   left:6px;
+   top:65px;
+   width:959px;
+   height:588px;
+
+  
+}
+
+#Image2
+{
+   margin: 0 auto;
+background: url(../images/why-muskoka.jpg) no-repeat;
+  height: 343px;
+  width: 559px;   
+}
+
+#Text1
+{
+   text-align: left;
+   font-family: "Courier New";
+   font-weight: normal;
+   font-size: 21px;
+   line-height:23px;
+}
+
+#Text2
+{
+   text-align: left;
+   font-family: "Courier New";
+   font-weight: normal;
+   font-size: 16px;
+   line-height:18px;
+}
+
+#Text3
+{
+   text-align: left;
+   font-family: "Courier New";
+   font-weight: normal;
+   font-size: 16px;
+   line-height:18px;
+}
+
+#BulletedList .bullet
+{
+   float: left;
+   font-family: Courier New;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   vertical-align: top;
+   width: 9px;
+}
+#BulletedList .item
+{
+   float: left;
+   vertical-align: top;
+   width: 772px;
+}
+
+#BulletedList .item0
+{
+   height: 102px;
+   font-family: "Courier New";
+   font-size: 16px;
+   line-height: 18px;
+   text-align: left;
+}
+
+#BulletedList .item1
+{
+   height: 78px;
+   font-family: "Courier New";
+   font-size: 16px;
+   line-height: 18px;
+   text-align: left;
+}
+
+#BulletedList .item2
+{
+   height: 78px;
+   font-family: "Courier New";
+   font-size: 16px;
+   line-height: 18px;
+   text-align: left;
+}
+#BulletedList .item3
+{
+   height: 78px;
+   font-family: "Courier New";
+   font-size: 16px;
+   line-height: 18px;
+   text-align: left;
+}
+
+#Text4
+{
+   text-align: center;
+   font-family: "Courier New";
+   font-weight: normal;
+   font-size: 20px;
+   line-height:25px;
+}
+
+#Text4 p {
+    font-size:16px;
+    line-height:18px;
+    line-height:25px;
+}
+
+#Text5
+{
+   text-align: left;
+   font-family: "Courier New";
+   font-weight: normal;
+   font-size: 19px;
+   line-height:18px;;
+}
+
+.bullet {
+
+   height:78px;
+}
+
+.text1, .text2, .text3, .text4, .text5{
+font-family: "Courier New";
+
+}
+
+
+.text1 p{
+font-size: 19px;
+text-align: left;
+
+}
+
+.text1 h1 {
+   font-size: 20px;
+   font-weight: bold;
+   text-align: left;
+
+}
+
+.text2 p{
+font-size: 19px;
+text-align: left;
+
+}
+
+.text2 h2 {
+   font-size: 20px;
+   font-weight: bold;
+   text-align: left;
+
+}
+
+
+.text3 p{
+font-size: 19px;
+text-align: center;
+
+}
+
+.text3 h2 {
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+
+}
+
+.text3 li {
+
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+}
+
+
+
+.text4 p{
+font-size: 19px;
+text-align: left;
+
+}
+
+.text4 h2 {
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+
+}
+
+.text5 p{
+font-size: 19px;
+text-align: left;
+
+}
+
+.text5 h2 {
+   font-size: 20px;
+   font-weight: bold;
+   text-align: left;
+
+}
+
+.beer_images {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
+
+}
+
+
+.beer_names {
+display: flex;
+flex-direction: row;
+
+
+   }
+
+#firstText{
+   margin-right:15px;
+   margin-left:90px;
+}
+
+#secondText{
+   margin-left:210px;
+}
+
+#thirdText{
+   margin-left:160px;
+}
+
+.hidden{
+   display: none;
+}
